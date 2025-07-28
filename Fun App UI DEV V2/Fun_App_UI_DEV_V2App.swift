@@ -1,15 +1,15 @@
 //
-//  Fun_App_UI_DEV_V2App.swift
-//  Fun App UI DEV V2
+//  Fun_App_UI_DevelopementApp.swift
+//  Cultural Bridge Quest
 //
-//  Created by Kaushik Manian on 22/6/25.
+//  Created by Kaushik Manian on 19/6/25.
 //
 
 import SwiftUI
 import SwiftData
 
 @main
-struct Fun_App_UI_DEV_V2App: App {
+struct Fun_App_UI_DevelopementApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -26,6 +26,7 @@ struct Fun_App_UI_DEV_V2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.light)
         }
         .modelContainer(sharedModelContainer)
     }

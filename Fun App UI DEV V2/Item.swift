@@ -1,8 +1,8 @@
 //
 //  Item.swift
-//  Fun App UI DEV V2
+//  Cultural Bridge Quest
 //
-//  Created by Kaushik Manian on 22/6/25.
+//  Created by Kaushik Manian on 19/6/25.
 //
 
 import Foundation
@@ -16,3 +16,4 @@ final class Item {
         self.timestamp = timestamp
     }
 }
+
